@@ -1,0 +1,64 @@
+img {
+    margin-left: 80px;
+    margin-top: 100px;
+}
+div{
+    background-color: #e6e6e6;
+    height: 700px;
+    width: 800px;
+    margin-top: 100px;
+
+}
+#img1{
+    width: 50px;
+    height: 50px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.label{
+    font-size: 1.3vw;
+    margin-left: 110px;
+    color:grey;
+}
+.input{
+    width:550px;
+    height: 40px;
+    margin-left:110px ;
+}
+#checkbox{
+    width:15px;
+    height: 15px;
+    margin-left: 110px;
+}
+#showpassword{
+    color:green;
+}
+#Forgetpassword{
+    color:green;
+    padding-left: 300px;;
+}
+#login{
+    width:100px;
+    height:30px;
+    font-size: 1vw;
+    margin-left: 250px;
+    background-color: green;
+    color:white;
+}
+#Signup{
+    width:100px;
+    height:30px;
+    font-size: 1vw;
+    background-color: white;
+    color:green;
+    margin-left:100px;
+}
+#Or{
+    margin-left: 370px;;
+}
+#img2{
+    width: 30px;
+    height: 30px;
+    margin-left: 360px;
+    margin-top: 50px;
+}

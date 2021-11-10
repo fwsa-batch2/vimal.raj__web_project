@@ -1,0 +1,222 @@
+#navbar{
+    background-color: black;
+    width:100% ;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    
+}
+*{
+    padding:0%;
+    margin:0%;
+}
+#navnames{
+    width: 100%;
+    font-size: 1.3vw;
+    
+}
+#home{
+    color:white;
+    text-decoration: none;
+    margin-left: 300px;
+}
+
+#payment{
+    color:white;
+    text-decoration: none;
+    margin-left: 200px;
+}
+#review{
+    color:white;
+    text-decoration: none;
+    margin-left: 200px;
+}
+#cart{
+    color:green;
+    text-decoration: none;
+    margin-left: 200px;
+}
+#location{
+    color:white;
+    text-decoration: none;
+    margin-left: 200px;
+}
+#login{
+    color: white;
+    text-decoration: none;
+    margin-left: 200px;
+    
+}
+#login:hover{
+    transition-duration: 0.5s;
+    color:green;
+}
+
+#home:hover{
+    transition-duration: 0.5s;
+    color:green;
+}
+
+#location:hover{
+    transition-duration: 0.5s;
+    color:green;
+}
+#review:hover{
+    transition-duration: 0.5s;
+    color:green;
+}
+#payment:hover{
+    transition-duration: 0.5s;
+    color:green;
+}
+
+#lcart{
+    margin-left:70px;
+    font-size: 1.5vw;
+}
+
+#lcart2{
+    font-size: 1.5vw;
+    margin-left:80%;
+}
+
+hr{
+    margin-left:80px;
+    margin-right: 130px;
+}
+
+
+
+
+#lfd{
+    margin-left: 80px;
+    color:grey;
+}
+
+#lq{
+    margin-left: 80px;
+    color:grey;
+    padding-left: 30%;
+}
+.lp{
+    margin-left: 80px;
+    color:grey; 
+    padding-left: 15%;
+}
+
+#img1{
+    margin-left: 70px;
+    height: 200px;
+    width: 300px;
+}
+
+#lparotta1{
+    font-size: 1.5vw;
+    margin-left: 50px;
+    padding-bottom:20%;
+}
+#lparotta2{
+    margin-left:50px;
+     padding-top: 10%;
+}
+#button1{
+    margin-left: 250px;
+    font-size: 1vw;
+    width:30px;
+    height: 30px;
+    background-color: #1e272c;
+}
+#label3{
+    font-size: 1vw;
+    padding-left: 20px;
+     color:green;
+}
+#button2{
+    margin-left: 20px;
+    font-size: 1vw;
+    width:30px;
+    height: 30px;
+    background-color: #1e272c;
+}
+#label4{
+    padding-left: 320px;
+    font-size: 1vw;
+}
+#label5{
+    padding-left: 360px;
+    font-size: 1.3vw;
+    color:green;
+}
+#simg{
+    padding-left: 50px;
+      
+}
+
+
+
+#lfd{
+    margin-left: 80px;
+    color:grey;
+}
+
+#lq{
+    margin-left: 80px;
+    color:grey;
+    padding-left: 30%;
+}
+.lp{
+    margin-left: 80px;
+    color:grey; 
+    padding-left: 15%;
+}
+
+#img1{
+    margin-left: 70px;
+    height: 200px;
+    width: 300px;
+}
+
+#lparotta1{
+    font-size: 1.5vw;
+    margin-left: 50px;
+    padding-bottom:20%;
+}
+#lparotta2{
+    margin-left:50px;
+     padding-top: 10%;
+}
+#button1{
+    margin-left: 250px;
+    font-size: 1vw;
+    width:30px;
+    height: 30px;
+    background-color: #1e272c;
+}
+#label3{
+    font-size: 1vw;
+    padding-left: 20px;
+     color:green;
+}
+#button2{
+    margin-left: 20px;
+    font-size: 1vw;
+    width:30px;
+    height: 30px;
+    background-color: #1e272c;
+}
+#label4{
+    padding-left: 320px;
+    font-size: 1vw;
+}
+#label5{
+    padding-left: 360px;
+    font-size: 1.3vw;
+    color:green;
+}
+#simg{
+    padding-left: 50px;
+      
+}
+
