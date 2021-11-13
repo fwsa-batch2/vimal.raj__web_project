@@ -24,7 +24,7 @@
 }
 
 #payment{
-    color:white;
+    color:green;
     text-decoration: none;
     margin-left: 200px;
 }
@@ -34,7 +34,7 @@
     margin-left: 200px;
 }
 #cart{
-    color:green;
+    color:white;
     text-decoration: none;
     margin-left: 200px;
 }
@@ -67,7 +67,7 @@
     transition-duration: 0.5s;
     color:green;
 }
-#payment:hover{
+#cart:hover{
     transition-duration: 0.5s;
     color:green;
 }
@@ -132,15 +132,63 @@
     margin-left: 5px;
     color: grey;
 }
-.btn{
-    display: inline;
-    border-radius: 6px;
-    border: 2px solid green;
-    color: blue;
-    padding:10px;
-    text-decoration: none;
-    width: 300px;
-    margin-left: 100px;
+.loginbtn{
+    width:530px;
+    height: 50px;
+    font-size: 1vw;
+    margin-left: 130px;
+    background-color: white;
+    color: green;
+    border-color: green;
+    cursor: pointer;
+    
 }
+.loginbtn:hover{
+    background-color: green;
+    color: white;
+    border: none;
+
+}
+#hr1{
+    width: 60%;
+    margin-left: 150px;
+
+}
+
+p{
+    color: grey;
+    padding-left: 270px;
+}
+
+#paymentimg1{
+    
+    height: 50px;
+    width: 50px;
+    margin-left: 230px;
+   
+}
+
+#paymentimg2{
+    
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    
+}
+
+#paymentimg3{
+    
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+   
+}
+
+#paymentimg1:hover{
+    transition: 2px;
+}
+
+
+
 
 
