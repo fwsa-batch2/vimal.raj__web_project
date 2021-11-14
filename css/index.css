@@ -24,6 +24,7 @@ div{
     width:550px;
     height: 40px;
     margin-left:110px ;
+    font-size: 1vw;
 }
 #checkbox{
     width:15px;
@@ -44,21 +45,30 @@ div{
     margin-left: 250px;
     background-color: green;
     color:white;
+    cursor: pointer;
+    border: none;
 }
 #Signup{
     width:100px;
     height:30px;
     font-size: 1vw;
     background-color: white;
-    color:green;
+    border-color:green;
     margin-left:100px;
+    cursor: pointer;
+    color: grey;
 }
+#Signup:hover{
+    background-color: green;
+    color: white;
+}
+
 #Or{
     margin-left: 370px;;
 }
 #img2{
     width: 30px;
     height: 30px;
-    margin-left: 360px;
+    margin-left: 370px;
     margin-top: 50px;
 }

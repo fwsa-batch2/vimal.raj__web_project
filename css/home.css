@@ -331,6 +331,7 @@
     width:100px;
     color:green;
     margin-left: 80px;
+    cursor: pointer;
 }
 
 #hn2{
@@ -343,6 +344,7 @@
     width:100px;
     color:green;
     margin-left: 90px;
+    cursor: pointer;
 }
 
 #hn3{
@@ -355,6 +357,7 @@
     width:100px;
     color:green;
     margin-left: 90px;
+    cursor: pointer;
 }
 
 #hn4{
@@ -367,6 +370,7 @@
     width:100px;
     color:green;
     margin-left: 120px;
+    cursor: pointer;
 }
 
 #fn1{

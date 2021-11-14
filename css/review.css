@@ -84,6 +84,11 @@
     font-size: 4vw;
     padding-left: 30px;
 }
+#fback{
+    font-size: 1.2vw;
+     margin-left: 40px;
+      color:grey;
+}
 
 #div1{
     background-color:#e6ffee;
@@ -124,6 +129,39 @@
       .comment{
         margin-left: 10px;
         font-size: 0.8vw;
+      }
+
+      .rating{
+        width: 100px;
+        margin-left: 130px;
+        position: initial;
+       
+      }
+
+      #comments{
+          margin-left: 170px;
+      }
+      .textarea{
+          margin-left: 170px;
+          width: 80%;
+          height: 200px;
+          background-color: #e6ffee;
+          border: none;
+          color: black;
+      }
+
+      .btn1{
+          width:100px;
+          height: 30px;
+          margin-left: 1500px;
+          background-color:#e6ffee;
+          border-color: green;
+      }
+      .btn1:hover{
+          background-color: green;
+          color: white;
+          border: none;
+
       }
 
 
