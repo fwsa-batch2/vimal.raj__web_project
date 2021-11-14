@@ -1,0 +1,56 @@
+img{
+        margin-left: 50px;
+        margin-top: 140px;
+}
+
+#div1{
+    background-color: #e6e6e6;
+    height: 700px;
+    width: 800px;
+    margin-top: 100px;
+
+}
+#img1{
+    width: 50px;
+    height: 50px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.label{
+    font-size: 1.3vw;
+    margin-left: 110px;
+    color:grey;
+}
+.input{
+    width:550px;
+    height: 40px;
+    margin-left:110px ;
+    font-size: 1vw;
+}
+#checkbox{
+    width:15px;
+    height: 15px;
+    margin-left: 110px;
+}
+#showpassword{
+    color:green;
+}
+#Forgetpassword{
+    color:green;
+    padding-left: 300px;;
+}
+#signup{
+    width:550px;
+    height: 40px;
+    margin-left:110px ;
+    font-size: 1vw;
+    color: green;
+    border-color: green;
+
+}
+
+#signup:hover{
+    background-color: green;
+    border: none;
+    color: white;
+}

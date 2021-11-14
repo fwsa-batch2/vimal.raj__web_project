@@ -96,11 +96,11 @@ hr{
 }
 
 #lq{
-    margin-left: 80px;
+    margin-left: 70px;
     color:grey;
     padding-left: 30%;
 }
-.lp{
+#lp{
     margin-left: 80px;
     color:grey; 
     padding-left: 15%;
@@ -178,17 +178,17 @@ hr{
     width: 300px;
 }
 
-#lparotta1{
+#lpizza1{
     font-size: 1.5vw;
     margin-left: 50px;
     padding-bottom:20%;
 }
-#lparotta2{
+#lpizza2{
     margin-left:50px;
      padding-top: 10%;
 }
-#button1{
-    margin-left: 250px;
+#button3{
+    margin-left: 260px;
     font-size: 1vw;
     width:30px;
     height: 30px;
@@ -199,7 +199,7 @@ hr{
     padding-left: 20px;
      color:green;
 }
-#button2{
+#button4{
     margin-left: 20px;
     font-size: 1vw;
     width:30px;
@@ -219,4 +219,53 @@ hr{
     padding-left: 50px;
       
 }
+.pbtn{
+    height: 40px;
+    width: 40px;
+}
 
+#small{
+    width: 30px;
+    height: 30px;
+    font-size: 1vw;
+    margin-left: 405px;
+    background-color: #e6ffee;
+    border-color: green;
+}
+#medium{
+    width: 30px;
+    height: 30px;
+    font-size: 1vw;
+    background-color:green;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+#large{
+    width: 30px;
+    height: 30px;
+    font-size: 1vw;
+    margin-left: 10px;
+    background-color: #e6ffee;
+    border-color: green;
+}
+#small:hover{
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+#large:hover{
+    background-color: green;
+    color: white;
+    border: none;
+}
+#paybtn{
+    width: 90px;
+    height: 40px;
+    font-size: 0.8vw;
+    margin-left: 720px;
+    color: green;
+
+}
