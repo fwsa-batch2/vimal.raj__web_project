@@ -79,7 +79,7 @@
 }
 #insearch{
     height: 30px;
-    width: 270px;
+    width: 250px;
 }
 
 #catogories{
@@ -148,14 +148,14 @@
 }
 
 #parotta1{
-    margin-left: 120px;
+    margin-left: 140px;
     font-size: 1vw;
     font-family:  Garamond (serif);
     color: grey;
 }
 
 #shakes1{
-    margin-left: 120px;
+    margin-left: 140px;
     font-size: 1vw;
     font-family:  Garamond (serif);
     color: grey;
@@ -538,6 +538,34 @@
 #pn4{
     color:green;
     margin-left: 100px;
+}
+
+#dimg1:hover{
+    width:360px;
+    height: 310px;
+    transition-duration: 1s;
+}
+
+#dimg2:hover{
+    width:360px;
+    height: 310px;
+    transition-duration: 1s;
+}
+#dimg3:hover{
+    width:360px;
+    height: 310px;
+    transition-duration: 1s;
+}
+#dimg4:hover{
+    width:360px;
+    height: 310px;
+    transition-duration: 1s;
+}
+
+#insearch:hover{
+    height: 30px;
+    width: 270px;
+    transition-duration: 2s;
 }
 
 
