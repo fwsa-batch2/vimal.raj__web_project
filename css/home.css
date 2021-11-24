@@ -11,6 +11,7 @@
 *{
     padding:0%;
     margin:0%;
+    font-family: poppins;
 }
 #navnames{
     width: 100%;
@@ -21,6 +22,7 @@
     color:green;
     text-decoration: none;
     margin-left: 300px;
+    border-bottom: 3px green;
 }
 
 #payment{
@@ -53,6 +55,7 @@
 #login:hover{
     transition-duration: 0.5s;
     color:green;
+    
 }
 
 #cart:hover{
