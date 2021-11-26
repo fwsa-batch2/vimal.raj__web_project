@@ -74,6 +74,17 @@ div{
 #img2{
     width: 30px;
     height: 30px;
-    margin-left: 370px;
-    margin-top: 50px;
+    margin-left: 350px;
+    margin-top: 40px;
+    position: absolute;
+    
+}
+
+#img3{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 40px;
+    
 }
