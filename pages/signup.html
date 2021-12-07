@@ -4,6 +4,7 @@
     <head>
         <title>loginpage</title>
         <link rel="stylesheet" type="text/css" href="../assets/css/signup.css">
+        
     </head>
     <body>
 
@@ -12,25 +13,25 @@
                 <td><img src="../assets/image/login gif" alt=""></td>
                 <td>
                     <div id="div1">
-                        <form action="../index.html">
+                        <form onsubmit="confirm()">
                             <img id="img1" src="../assets/image/loginicon.png" alt=""><br><br><br><br>
                             <label class="label" for="name">
                                 <b>E-mail</b>
                             </label><br><br><br>
-                            <input class="input" type="E-mail" required><br><br>
+                            <input class="input" type="email" required><br><br>
                             <label class="label" for="name">
                                 <b>Password</b>
                             </label><br><br>
-                            <input class="input" type="password" required><br><br>
+                            <input class="input" type="password" id="pinput" required><br><br>
 
                             <input id="checkbox" type="checkbox">
 
                             <label id="showpassword" for="name">Show Password</label><br><br>
-                            <input class="input" type="password" required placeholder="confirm Password"><br><br><br>
+                            <input class="input" id="pinput1" type="password" required placeholder="confirm Password"><br><br><br>
 
-                            <input type="number" class="input" placeholder="Mobile Number" required><br><br><br>
+                            <input type="number" class="input"  placeholder="Mobile Number" required><br><br><br>
 
-                            <button id="signup">
+                            <button   id="signup" type="submit">
                                 <b>SIGNUP</b>
                             </button>
                         </form>
@@ -38,6 +39,8 @@
                 </td>
             </tr>
         </table>
+
+        <script src="../assets/js/signup.js"></script>
 
 
     </body>
