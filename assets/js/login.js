@@ -11,3 +11,18 @@ function confirm(){
       }
     }
    }
+
+
+   function check(){
+       const checkbox = document.getElementById("checkbox");
+       if(checkbox.checked){
+           document.getElementById("password").type ="text";
+           
+
+       }
+       else
+       document.getElementById("password").type = "password";
+    }
+
+
+    // email validation

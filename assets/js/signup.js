@@ -2,7 +2,7 @@ let customerlist =[];
 
 function pageOnLoad(){
     const call = JSON.parse(localStorage.getItem("user_details"))
-        if(call){
+        if(call !=null){
             customerlist=call  
         }
 
@@ -23,6 +23,12 @@ function confirm(){
         "number" : mobileNumber,
         
         }
+    const thisemail = emailvalidation(email);
+    if(thisemail){
+        alert("email Already exixts");
+        return;
+    }
+
         customerlist.push(coustomer_details);
         localStorage. setItem("user_details", JSON.stringify(customerlist));
        
@@ -40,3 +46,38 @@ function confirm(){
 }
 
 pageOnLoad()
+
+
+function check(){
+    const checkbox = document.getElementById("checkbox");
+    if(checkbox.checked){
+        document.getElementById("password").type ="text";
+        
+
+    }
+    else
+    document.getElementById("password").type = "password";
+    
+
+ }
+
+//  email validation
+
+ function emailvalidation(current_email){
+     let ismailExists = false;
+
+
+     for (i = 0; i <customerlist.length; i++){
+         const user = customerlist[i];
+         const email = user.email;
+
+         if(current_email ==email){
+             ismailExists = true;
+             break;
+         }
+     }
+     return ismailExists;
+
+
+ }
+
