@@ -11,23 +11,27 @@
                 <td><img src="../assets/image/login gif" alt=""></td>
                 <td>
                     <div>
-                        <form action="../index.html">
+                        <form onsubmit="confirm()">
                             <img id="img1" src="../assets/image/loginicon.png" alt=""><br><br><br><br>
                             <label class="label" for="name">
                                 <b>E-mail</b>
                             </label><br><br><br>
-                            <input class="input" type="email" required><br><br>
+                            <input class="input" type="email" id="email" required><br><br>
                             <label class="label" for="name">
                                 <b>Password</b>
                             </label><br><br>
-                            <input class="input" type="password" max="10" required ><br><br>
+                            <input class="input" type="password"  id="password"  required ><br><br>
+                            
+
+
+                            
 
                             <input id="checkbox" type="checkbox">
                             <label id="showpassword" for="name">Show Password</label>
                             <label id="Forgetpassword" for="forget Password">Forgetpassword?</label><br><br><br>
 
 
-                            <a href="./home.html">
+                            <a href="../index.html">
                                 <button id="login" type="submit">
                                     <b>LOGIN</b>
                                 </button>
@@ -36,7 +40,7 @@
 
                         </form>
                         <a href="./signup.html">
-                            <button id="Signup">
+                            <button id="Signup" type="submit" >
                                 <b>SIGNUP</b>
                             </button>
                         </a><br><br><br>
@@ -52,6 +56,8 @@
                 </td>
             </tr>
         </table>
+
+        <script src="../assets/js/login.js"></script>
 
     </body>
 </html>
