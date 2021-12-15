@@ -1,9 +1,11 @@
 function confirm(){
+  event.preventDefault();
     let array = JSON.parse(localStorage.getItem("user_details"));
     let mailid = document.getElementById("email").value;
+    let passwords = document.getElementById("password").value;
     for(let i=0; i < array.length; i++){
-      if(array[i].email !== mailid ){
-         alert("Email exists");
+      if(array[i].email !== mailid && array[i].password !== passwords ){
+         alert("Email or password");
          break
       }
       else{
