@@ -3,46 +3,37 @@ let addmenu =[];
 function pageOnLoad(){
     const call = JSON.parse(localStorage.getItem("user_details"))
         if(call !=null){
-            customerlist=call  
+            addmenu=call  
+            
         }
 
 }
 
-function confirm(){
+function menu(){
     event.preventDefault();
     
-    let email = document.getElementById("email").value;
-    let password = document.getElementById("password").value;
-    let confirm_password = document.getElementById("pinput1").value;
-    let mobileNumber = document.getElementById("mnumber").value;
+    let image_link = document.getElementById("input1").value;
+    let shopname = document.getElementById("input2").value;
+    let foodname= document.getElementById("input3").value;
+    let prize= document.getElementById("input4").value;
+    
     
     const coustomer_details ={
-        "email" : email,
-        "password" : password,
-        "confirmPasword" : confirm_password,
-        "number" : mobileNumber,
+        "image" : image_link,
+        "shopname" : shopname,
+        "foodname" : foodname,
+        "prize" : prize,
         
         }
-    const thisemail = emailvalidation(email);
-    if(thisemail){
-        alert("email Already exixts");
-        return;
-    }
+   
 
-        customerlist.push(coustomer_details);
-        localStorage. setItem("user_details", JSON.stringify(customerlist));
-       
-    if(password != confirm_password){
-        alert('password incorrect');
-       
-    }
+        addmenu.push(coustomer_details);
+        localStorage. setItem("user_details", JSON.stringify(addmenu));
 
-    else{
-       
-        window.location.href ="../index.html";  
-
-    }
-
+ 
+        
 }
 
 pageOnLoad()
+
+
