@@ -1,15 +1,16 @@
 let addmenu =[];
 
 function pageOnLoad(){
-    const call = JSON.parse(localStorage.getItem("user_details"))
+    const call = JSON.parse(localStorage.getItem("menu_added"))
         if(call !=null){
-            addmenu=call  
+            addmenu=call ; 
             
         }
 
 }
 
-function menu(){
+
+function menu(event){
     event.preventDefault();
     
     let image_link = document.getElementById("input1").value;
@@ -18,7 +19,7 @@ function menu(){
     let prize= document.getElementById("input4").value;
     
     
-    const coustomer_details ={
+    let menu_details ={
         "image" : image_link,
         "shopname" : shopname,
         "foodname" : foodname,
@@ -27,13 +28,16 @@ function menu(){
         }
    
 
-        addmenu.push(coustomer_details);
-        localStorage. setItem("user_details", JSON.stringify(addmenu));
+        addmenu.push(menu_details);
+        
+        localStorage.setItem("menu_added", JSON.stringify(addmenu));
 
  
         
 }
 
 pageOnLoad()
+
+
 
 
