@@ -1,7 +1,68 @@
 #div1{
     width: 500px;
     height: 500px;
-    background-color: grey;
+    background-color: 	 #f2f2f2;
     margin-top: 70px;
     margin-left: 350px;
 }
+
+#p1{
+    margin-left: 90px;; 
+
+}
+
+#input1{
+    margin-left: 90px;
+    width: 300px;
+    height: 20px;
+}
+
+#p2{
+    margin-left: 90px;
+    
+
+}
+
+#input2{
+    margin-left: 90px;
+    width: 300px;
+    height: 20px;
+}
+
+#p3{
+    margin-left: 90px;
+    
+
+}
+
+#input3{
+    margin-left: 90px;
+    width: 300px;
+    height: 20px;
+}
+
+#p43{
+    margin-left: 90px;
+    
+
+}
+
+#input4{
+    margin-left: 90px;
+    width: 300px;
+    height: 20px;
+}
+
+#buttton1{
+    width: 300px;
+    height: 30px;
+    background-color: green;
+    border: none;
+    color: white;
+    margin-top: 50px;
+    margin-left: 90px;
+
+}
+
+
+
