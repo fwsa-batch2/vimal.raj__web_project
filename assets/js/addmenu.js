@@ -8,8 +8,6 @@ function pageOnLoad(){
         }
 
 }
-
-
 function menu(event){
     event.preventDefault();
     
@@ -26,15 +24,11 @@ function menu(event){
         "prize" : prize,
         
         }
-   
-
         addmenu.push(menu_details);
         
         localStorage.setItem("menu_added", JSON.stringify(addmenu));
-
- 
-        
-}
+     
+} 
 
 pageOnLoad()
 

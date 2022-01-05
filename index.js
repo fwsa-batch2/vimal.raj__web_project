@@ -17,19 +17,7 @@ function addmenu() {
     document.getElementById("menu_div").innerHTML = menuname;
 }
 
-// function cart(){
-//     event.preventDefault();
-    
-//     let image_link = document.getElementById("imageid").src;
-//     let shopname = document.getElementById("shopname").innerText;
-//     let foodname= document.getElementById("foodname").innerText;
-//     let prize= document.getElementById("price").innerText;
-    
-    
 
- 
-        
-// } 
 
 
 addmenu()

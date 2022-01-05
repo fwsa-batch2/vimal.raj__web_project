@@ -48,18 +48,18 @@ function confirm(){
 pageOnLoad()
 
 
-function check(){
-    const checkbox = document.getElementById("checkbox");
-    if(checkbox.checked){
-        document.getElementById("password").type ="text";
-        
 
+function check() {
+    let check = document.getElementById("checkbox");
+    if (check.checked) {
+        document.getElementById("password").type = "Text";
+        document.getElementById("pinput1").type = "Text";
     }
-    else
-    document.getElementById("password").type = "password";
-    
-
- }
+    else {
+        document.getElementById("password").type = "password";
+        document.getElementById("pinput1").type = "password";
+    }
+}
 
 //  email validation
 
