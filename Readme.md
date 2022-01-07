@@ -13,7 +13,6 @@ Features :
 4.List of Menu (completed)
 
 1. Registration :
-Fields
 Email
 Password
 Confirm Password
@@ -35,3 +34,10 @@ Acceptance Criteria
 All input fields are required.
 Email id and password should match with the local storage content.
 If everything is validated, redirect to index page.
+
+3.Add Menu:
+In add menu need to add a new food item.
+
+4.List Of menu:
+
+After adding the item it can view in idex page.
