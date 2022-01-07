@@ -17,8 +17,7 @@ function confirm() {
       window.location.href = "../index.html";
 
       break;
-      
-      
+
       
     }
 

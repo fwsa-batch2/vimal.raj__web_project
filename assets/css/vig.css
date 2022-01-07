@@ -1,0 +1,11 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#imgback{
+    width: 100%;
+    height: 40vh;
+    background-image: url(../image/pexels-pixabay-372882.jpg);
+}
