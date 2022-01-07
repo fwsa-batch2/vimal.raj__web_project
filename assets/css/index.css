@@ -11,7 +11,7 @@
 *{
     padding:0%;
     margin:0%;
-    font-family: poppins;
+    
 }
 #navnames{
     width: 100%;
@@ -140,7 +140,6 @@
 #fried1{
     margin-left: 80px;
     font-size: 1vw;
-    font-family:  Garamond (serif);
     color: grey;
 }
 #briyani1{
