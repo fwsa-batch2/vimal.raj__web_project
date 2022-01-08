@@ -194,11 +194,7 @@ hr{
     height: 30px;
     background-color: #1e272c;
 }
-#label3{
-    font-size: 1vw;
-    padding-left: 20px;
-     color:green;
-}
+
 #button4{
     margin-left: 20px;
     font-size: 1vw;
@@ -206,19 +202,7 @@ hr{
     height: 30px;
     background-color: #1e272c;
 }
-#label4{
-    padding-left: 320px;
-    font-size: 1vw;
-}
-#label5{
-    padding-left: 360px;
-    font-size: 1.3vw;
-    color:green;
-}
-#simg{
-    padding-left: 50px;
-      
-}
+
 .pbtn{
     height: 40px;
     width: 40px;
