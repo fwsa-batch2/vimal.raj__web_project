@@ -50,8 +50,8 @@ pageOnLoad()
 
 
 function check() {
-    let check = document.getElementById("checkbox");
-    if (check.checked) {
+    let checking = document.getElementById("checkbox");
+    if (checking.checked) {
         document.getElementById("password").type = "Text";
         document.getElementById("pinput1").type = "Text";
     }

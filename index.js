@@ -1,7 +1,5 @@
 let user_list = [];
 
-function pageOnLoad() {
-}
 let menulist = localStorage.getItem("user_details");
 function addmenu() {
     let getvalue = JSON.parse(localStorage.getItem("menu_added"));
