@@ -65,9 +65,9 @@ function check() {
 
  function emailvalidation(current_email){
      let ismailExists = false;
+          let len  = customerlist.length;
 
-
-     for (let i = 0; i <customerlist.length; i++){
+     for (let i = 0; i <len; i++){
          const user = customerlist[i];
          const email = user.email;
 
