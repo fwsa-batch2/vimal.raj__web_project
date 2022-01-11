@@ -1,4 +1,4 @@
-function confirm() {
+function confirm(event) {
   event.preventDefault();
   let array = JSON.parse(localStorage.getItem("user_details"));
   let mailid = document.getElementById("email").value;

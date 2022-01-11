@@ -8,7 +8,7 @@ function pageOnLoad(){
 
 }
 
-function confirm(){
+function confirm(event){
     event.preventDefault();
     
     let email = document.getElementById("email").value;
@@ -67,7 +67,7 @@ function check() {
      let ismailExists = false;
 
 
-     for (i = 0; i <customerlist.length; i++){
+     for (let i = 0; i <customerlist.length; i++){
          const user = customerlist[i];
          const email = user.email;
 
