@@ -93,8 +93,8 @@
 #div1{
     background-color:#e6ffee;
     width: 80%;
-    height: 250px;
-    margin-left: 180px;
+    padding: 2%;
+    margin: 0.1% 10%;
 }
 
     .avatar {
@@ -163,6 +163,39 @@
           color: white;
           border: none;
 
+      }
+
+      #review_name{
+          width: 180px;
+          height: 30px;
+          margin-left: 170px;
+      }
+
+      #city{
+        width: 190px;
+        height: 30px;
+        margin-left: 25px;
+
+      }
+
+      #textarea{
+        width: 400px;
+        height: 220px;
+        margin-top: 20px;
+        margin-left: 170px;
+
+      }
+
+      #submit{
+          margin-left: 170px;
+          height: 30px;
+          width: 100px;
+          font-size: 2vh;
+          font-weight: bold;
+          margin-top: 20px;
+          background-color: green;
+          color: white;
+          border: none;
       }
 
 

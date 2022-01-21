@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            review</title>
-        <link rel="stylesheet" type="text/css" href="../assets/css/review.css">
-    </head>
-    <body>
 
-        <div id="navbar">
+<head>
+    <title>
+        review</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/review.css">
+</head>
 
-            <span id="navnames">
+<body>
 
-                <a id="home" href="../index.html">Home</a>
-                <a id="payment" href="./payment.html">Payment</a>
-                <a id="review" href="">Review</a>
-                <a id="cart" href="./cart.html">cart</a>
-                <a id="location" href="./location.html">Location</a>
-                <a id="login" href="./login.html">LOGIN</a>
+    <div id="navbar">
 
-            </span>
-        </div><br><br><br>
+        <span id="navnames">
 
-        <table>
-            <caption></caption>
-            <th id="head1">
+            <a id="home" href="../index.html">Home</a>
+            <a id="payment" href="./payment.html">Payment</a>
+            <a id="review" href="">Review</a>
+            <a id="cart" href="./cart.html">cart</a>
+            <a id="location" href="./location.html">Location</a>
+            <a id="login" href="./login.html">LOGIN</a>
+
+        </span>
+    </div><br><br><br>
+
+    <table>
+        <caption></caption>
+        <th id="head1">
             <tr>
                 <td><img id="rimg" src="./../assets/image/Online Review-pana.png" alt=""></td>
                 <td>
@@ -34,113 +36,28 @@
                     </label><br>
                     <label id="fback">
                         <strong>and Your FeedBack</b</label>
-                    </td>
+                </td>
                 </td>
             </tr>
         </th>
-        </table><br><br>
+    </table><br><br>
 
-        <div id="div1"><br><br>
-            <img src="../assets/image/IMG_20211005_182554 (1).jpg" alt="" class="avatar">
-            <label id="lvimal" for="vimal">
-                <strong>Vimal -</strong>
-            </label>
-            <label id="lvimal1" for="vimal">
-                <strong>
-                    Pondicherry</strong>
-            </label><br><br>
+    <div id="review-div"></div>
 
-            <p class="p">Restaurants in Chennai, Chennai Restaurants, Perungudi restaurants,<br>
-                Best Perungudi restaurants, South Chennai restaurants, Casual<br>
-                Dining in Chennai, Casual Dining near me, Casual Dining in Perungudi,<br>
-                in Chennai, near me, in Perungudi, Paradise Biryani Menu,
-            </p><br>
+    <label id="comments" for="add comment">ADD COMMENTS:</label><br><br><br>
+    <form onsubmit="review(event)">
 
-            <img src="../assets/image/pngfind.com-rating-png-transparent-6687141.png" alt="" class="rating">
-            <img src="../assets/image/430-4304893_png-file-svg-comment-icon-png-transparent-png.png" alt="" id="icons">
-            <label class="comment" for="comment">Comment</label>
+        <input type="text" placeholder="name" id="review_name">
+        <input type="text" placeholder="city" id="city"><br>
+        <input type="textarea" id="textarea"><br>
+        <input type="submit" id="submit">
+    </form>
+    </div>
+
+    <script src="../assets/js/review.js"></script>
 
 
-        </div><br><br>
 
-        <div id="div1"><br><br>
-            <img src="../assets/image/IMG_20211005_182554 (1).jpg" alt="" class="avatar">
-            <label id="lvimal" for="vimal">
-                <strong>Kaushik -</strong>
-            </label>
-            <label id="lvimal1" for="vimal">
-                <strong>
-                    Chennai</strong>
-            </label><br><br>
-
-            <p class="p">Restaurants in Chennai, Chennai Restaurants, Perungudi restaurants,<br>
-                Best Perungudi restaurants, South Chennai restaurants, Casual<br>
-                Dining in Chennai, Casual Dining near me, Casual Dining in Perungudi,<br>
-                in Chennai, near me, in Perungudi, Paradise Biryani Menu,
-            </p><br>
-            <img src="../assets/image/pngfind.com-rating-png-transparent-6687141.png" alt="" class="rating">
-            <img src="../assets/image/430-4304893_png-file-svg-comment-icon-png-transparent-png.png" alt="" id="icons">
-            <label class="comment" for="comment">Comment</label>
-
-
-        </div><br><br>
-
-        <div id="div1"><br><br>
-            <img src="../assets/image/IMG_20211005_182554 (1).jpg" alt="" class="avatar">
-            <label id="lvimal" for="vimal">
-                <strong>prasana -</strong>
-            </label>
-            <label id="lvimal1" for="vimal">
-                <strong>
-                    Chennai</strong>
-            </label><br><br>
-
-            <p class="p">Restaurants in Chennai, Chennai Restaurants, Perungudi restaurants,<br>
-                Best Perungudi restaurants, South Chennai restaurants, Casual<br>
-                Dining in Chennai, Casual Dining near me, Casual Dining in Perungudi,<br>
-                in Chennai, near me, in Perungudi, Paradise Biryani Menu,
-            </p><br>
-
-            <img src="../assets/image/pngfind.com-rating-png-transparent-6687141.png" alt="" class="rating">
-            <img src="../assets/image/430-4304893_png-file-svg-comment-icon-png-transparent-png.png" alt="" id="icons">
-            <label class="comment" for="comment">Comment</label>
-
-
-        </div><br><br>
-
-        <div id="div1"><br><br>
-            <img src="../assets/image/IMG_20211005_182554 (1).jpg" alt="" class="avatar">
-            <label id="lvimal" for="vimal">
-                <strong>Haiden -</strong>
-            </label>
-            <label id="lvimal1" for="vimal">
-                <strong>
-                    chennai</strong>
-            </label><br><br>
-
-            <p class="p">Restaurants in Chennai, Chennai Restaurants, Perungudi restaurants,<br>
-                Best Perungudi restaurants, South Chennai restaurants, Casual<br>
-                Dining in Chennai, Casual Dining near me, Casual Dining in Perungudi,<br>
-                in Chennai, near me, in Perungudi, Paradise Biryani Menu,
-            </p><br>
-
-            <img src="../assets/image/pngfind.com-rating-png-transparent-6687141.png" alt="" class="rating">
-            <img src="../assets/image/430-4304893_png-file-svg-comment-icon-png-transparent-png.png" alt="" id="icons">
-            <label class="comment" for="comment">Comment</label>
-
-
-        </div><br><br>
-
-
-        <label id="comments" for="add comment">ADD COMMENTS:</label><br><br>
-
-        <input type="textarea" class="textarea"><br><br>
-
-        <button class="btn1">
-            <strong>SEND</strong>
-        </button>
-
-
-    </body>
+</body>
 
 </html>

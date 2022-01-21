@@ -54,3 +54,11 @@ img{
     border: none;
     color: white;
 }
+
+#name{
+    width:550px;
+    height: 40px;
+    margin-left:110px ;
+    font-size: 1vw;
+
+}
