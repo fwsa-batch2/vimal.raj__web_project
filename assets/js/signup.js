@@ -38,7 +38,7 @@ function confirm(event){
     }
 
     else{
-        alert('SignUP Success')
+        alert("SignUP Success");
         window.location.href ="../index.html";  
 
     }
