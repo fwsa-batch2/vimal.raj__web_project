@@ -11,7 +11,7 @@ function confirm(event) {
   for (let i = 0; i < len; i++) {
 
     if (array[i].email == mailid && array[i].password == confirm_password) {
-      alert("Login success")
+      alert("Login successs")
       window.location.href = "../index.html";
 
       break;
