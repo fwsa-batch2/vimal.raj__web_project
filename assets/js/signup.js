@@ -38,14 +38,13 @@ function confirm(event){
     }
 
     else{
+
         alert('signup success')
-       
         window.location.href ="../index.html";  
 
     }
 
 }
-
 pageOnLoad()
 
 
