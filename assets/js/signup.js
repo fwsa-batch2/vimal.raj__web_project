@@ -39,7 +39,7 @@ function confirm(event){
 
     else{
 
-        alert('signup success')
+        alert("signup success");
         window.location.href ="../index.html";  
 
     }
