@@ -11,6 +11,7 @@ Features :
 2. Login (completed)
 3.Add Menu (completed)
 4.List of Menu (completed)
+5.Add review(completed)
 
 1. Registration :
 Email
