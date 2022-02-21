@@ -4,7 +4,7 @@ Netlify Link :https://foodorderingapp-ui-vimalraj.netlify.app/
 
 Sonarcloud Link :https://sonarcloud.io/project/overview?id=fwsa-batch-02_foodorderingapp-ui
 
-Github Link :https://github.com/fwsa-batch-02/foodorderingapp-ui
+Github Link :https://github.com/fwsa-batch2/vimal.raj__web_project
 
 Features :
 1. Sign Up (completed)
